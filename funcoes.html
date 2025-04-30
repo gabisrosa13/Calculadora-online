@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Funções</title>
+  <link rel="stylesheet" href="css/funcoes.css"/>
+</head>
+<body>
+
+  <div class="menu-lateral">
+    <div class="titu">Calculadora Online</div>
+    <ul>
+      <li><a href="Lorena.html">Home</a></li>
+      <li><a href="operadores-aritmeticos.html">Operadores Aritméticos</a></li>
+      <li><a href="relacionais.html">Operadores Relacionais</a></li>
+      <li><a href="logica.html">Operadores Lógicos</a></li>
+      <li><a href="datas.html">Manipulação de Datas</a></li>
+      <li><a href="funcoes.html">Funções</a></li>
+      <li><a href="manipulacao-string.html">Manipulação de Strings</a></li>
+      <li><a href="imc.html">IMC</a></li>
+      <li><a href="porcentagem.html">Porcentagem</a></li>
+      <li><a href="crud.html">Histórico</a></li>
+    </ul>
+  </div>
+
+  <header class="topo-site">
+    <p class="titulo-principal">Calculadora de Funções</p>
+  </header>
+
+  <div class="explicacao">
+    <p>Essa calculadora realiza operações de potenciação e radiciação de forma simples. Escolha a base e o expoente ou apenas o número para extrair a raiz.</p>
+  </div>
+
+  <div class="container-principal">
+    <div class="conteudo-centralizado">
+      <div class="calculadora">
+        <label>Potenciação</label>
+        <input type="number" id="base" placeholder="Digite a base">
+        <input type="number" id="expoente" placeholder="Digite o expoente">
+        <button id="btn-potencia">Calcular Potência</button>
+
+        <label>Radiciação</label>
+        <input type="number" id="raiz" placeholder="Digite o número">
+        <button id="btn-raiz">Calcular Raiz</button>
+
+        <div id="resultado"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footercopyrights">
+        <p>&#169; 2025 Todos os direitos reservados</p>
+        <p>Página feita por: Lorena Silva</p>
+    </div>
+  </footer>
+
+  <script src="js/funcoes.js"></script>
+</body>
+</html>

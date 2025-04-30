@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Operadores Lógicos</title>
+    <link rel="stylesheet" href="css/logica.css">
+</head>
+<body>
+
+    <div class="menu-lateral">
+        <div class="titu">Calculadora Online</div>
+        <ul>
+          <li><a href="Lorena.html">Home</a></li>
+          <li><a href="operadores-aritmeticos.html">Operadores Aritméticos</a></li>
+          <li><a href="relacionais.html">Operadores Relacionais</a></li>
+          <li><a href="logica.html">Operadores Lógicos</a></li>
+          <li><a href="datas.html">Manipulação de Datas</a></li>
+          <li><a href="funcoes.html">Funções</a></li>
+          <li><a href="manipulacao-string.html">Manipulação de Strings</a></li>
+          <li><a href="imc.html">IMC</a></li>
+          <li><a href="porcentagem.html">Porcentagem</a></li>
+          <li><a href="crud.html">Histórico</a></li>
+        </ul>
+    </div>
+
+    <header class="topo-site">
+        <p class="titulo-principal">Calculadora Lógica</p>
+    </header>
+
+    <div class="explicacao">
+        <p>Essa calculadora lógica permite aplicar operações booleanas como AND, OR e NOT em dois valores lógicos.</p>
+    </div>
+
+    <div class="container-principal">
+        <div class="conteudo-centralizado">
+            <div class="calculadora">
+                <label>Valor 1:</label>
+                <select id="valor1">
+                    <option value="true">Verdadeiro</option>
+                    <option value="false">Falso</option>
+                </select>
+
+                <label>Operação:</label>
+                <select id="operacao">
+                    <option value="and">AND</option>
+                    <option value="or">OR</option>
+                    <option value="not">NOT</option>
+                </select>
+
+                <label>Valor 2:</label>
+                <select id="valor2">
+                    <option value="true">Verdadeiro</option>
+                    <option value="false">Falso</option>
+                </select>
+
+                <button onclick="calcular()">Calcular</button>
+                <p><strong>Resultado:</strong> <span id="resultado"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footercopyrights">
+            <p>&#169; 2025 Todos os direitos reservados</p>
+            <p>Página feita por: Nicolle Coutinho</p>
+        </div>
+    </footer>
+
+    <script src="js/logica.js"></script>
+</body>
+</html>

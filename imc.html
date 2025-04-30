@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IMC</title>
+  <link rel="stylesheet" href="css/imc.css"/>
+  <script src="js/imc.js" defer></script>
+</head>
+<body>
+
+  <div class="menu-lateral">
+    <div class="titu">Calculadora Online</div>
+    <ul>
+      <li><a href="Lorena.html">Home</a></li>
+      <li><a href="operadores-aritmeticos.html">Operadores Aritméticos</a></li>
+      <li><a href="relacionais.html">Operadores Relacionais</a></li>
+      <li><a href="logica.html">Operadores Lógicos</a></li>
+      <li><a href="datas.html">Manipulação de Datas</a></li>
+      <li><a href="funcoes.html">Funções</a></li>
+      <li><a href="manipulacao-string.html">Manipulação de Strings</a></li>
+      <li><a href="imc.html">IMC</a></li>
+      <li><a href="porcentagem.html">Porcentagem</a></li>
+      <li><a href="crud.html">Histórico</a></li>
+    </ul>
+  </div>
+
+  <header class="topo-site">
+    <p class="titulo-principal">Calculadora de IMC</p>
+  </header>
+
+  <div class="explicacao">
+    <p>Use essa calculadora para descobrir o seu Índice de Massa Corporal (IMC).<br>Informe seu peso e altura para calcular.</p>
+  </div>
+
+  <div class="container-principal">
+    <div class="conteudo-centralizado">
+      <div class="calculadora">
+        <p>Digite seu peso e altura:</p>
+        <input type="number" id="peso" placeholder="Peso (kg)">
+        <input type="number" id="altura" placeholder="Altura (m)">
+        <button id="calcular" onclick="CalcularIMC()">Calcular</button>
+        <p id="resultado"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footercopyrights">
+      <p>&#169; 2025 Todos os direitos reservados</p>
+      <p>Página feita por: Maria Clara</p>
+    </div>
+  </footer>
+
+</body>
+</html>

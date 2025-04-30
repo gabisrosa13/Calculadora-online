@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+
+.menu-lateral {
+  width: 220px;
+  height: 100vh;
+  background-color: #b81c7c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.menu-lateral .titu {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.menu-lateral ul li {
+  margin: 15px 0;
+}
+
+.menu-lateral ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.menu-lateral ul li a:hover {
+  background-color: white;
+  color: #b81c7c;
+}
+
+
+.topo-site {
+  margin-left: 220px;
+  padding: 40px 20px 20px;
+  background: linear-gradient(to right, #b81c7c, #ff14a5);
+  text-align: center;
+}
+
+.titulo-principal {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
+.explicacao {
+  font-size: 18px;
+  color: #333;
+  max-width: 600px;
+  text-align: center;
+  margin-left: 600px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-left: 5px solid #b81c7c;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+
+
+.container-principal {
+  margin-left: 220px;
+  padding: 40px 20px;
+}
+
+.conteudo-centralizado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.calculadora {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+  margin-top: -20px;
+  margin-left: 800px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff14a5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b81c7c;
+}
+
+#resultado {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff14a5;
+  margin-top: 10px;
+}
+
+footer {
+  width: calc(100% - 220px);
+  background-color: #eaeaea;
+  font-size: 0.75rem;
+  padding: 1rem;
+  font-weight: 100;
+  position: fixed;
+  bottom: 0;
+  left: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+#footercopyrights {
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #aaa;
+}

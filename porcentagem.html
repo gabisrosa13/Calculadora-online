@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Porcentagem</title>
+    <link rel="stylesheet" href="css/porcentagem.css">
+    <script src="js/porcentagem.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-lateral">
+        <div class="titu">Calculadora Online</div>
+        <ul>
+          <li><a href="Lorena.html">Home</a></li>
+          <li><a href="operadores-aritmeticos.html">Operadores Aritméticos</a></li>
+          <li><a href="relacionais.html">Operadores Relacionais</a></li>
+          <li><a href="logica.html">Operadores Lógicos</a></li>
+          <li><a href="datas.html">Manipulação de Datas</a></li>
+          <li><a href="funcoes.html">Funções</a></li>
+          <li><a href="manipulacao-string.html">Manipulação de Strings</a></li>
+          <li><a href="imc.html">IMC</a></li>
+          <li><a href="porcentagem.html">Porcentagem</a></li>
+          <li><a href="crud.html">Histórico</a></li>
+        </ul>
+      </div>
+
+      
+    <header class="topo-site">
+        <p class="titulo-principal">Calculadora de Porcentagem</p>
+    </header>
+
+    <div class="explicacao">
+        <p>Use essa calculadora para descobrir quanto é uma porcentagem de um número e somar ou subtrair esse valor do total.</p>
+    </div>
+
+    <div class="container-principal">
+        <div class="conteudo-centralizado">
+            <div class="calculadora">
+                <form>
+                    <p>Digite o número base:</p>
+                    <input type="number" id="numero" placeholder="Ex: 200">
+
+                    <p>Escolha a operação:</p>
+                    <select id="operacao">
+                        <option value="somar">Somar</option>
+                        <option value="subtrair">Subtrair</option>
+                    </select>
+
+                    <p>Digite a porcentagem:</p>
+                    <input type="number" id="porcentagem" placeholder="Ex: 10">
+
+                    <button type="button" id="calcular" onclick="CalcularPorcentagem()">Calcular</button>
+                    <p id="resultado"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footercopyrights">
+            <p>&#169; 2025 Todos os direitos reservados</p>
+            <p>Página feita por: Maria Clara</p>
+        </div>
+    </footer>
+
+</body>
+</html>

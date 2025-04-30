@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+
+.menu-lateral {
+  width: 220px;
+  height: 100vh;
+  background-color: #b81c7c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.menu-lateral .titu {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.menu-lateral ul li {
+  margin: 15px 0;
+}
+
+.menu-lateral ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.menu-lateral ul li a:hover {
+  background-color: white;
+  color: #b81c7c;
+}
+
+
+.container {
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  background: white;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.divTable {
+  padding: 10px;
+  overflow: auto;
+  height: 70%;
+}
+
+.table, th, td {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: whitesmoke;
+}
+
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(57, 57, 226);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.active {
+  display: flex;
+}
+
+.acao {
+  text-align: center;
+}
+
+button i {
+  font-size: 20px;
+}
